@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Fundamentals Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div id="start-screen">
+        <h1>CS Fundamentals Quiz</h1>
+        <p>
+            Test your knowledge in OOPs, DBMS,
+            Operating Systems, Computer Networks and Java.
+        </p>
+
+        <button id="start-btn">
+            Start Quiz
+        </button>
+    </div>
+
+    <div id="quiz-screen" class="hide">
+
+        <div class="header">
+            <h2 id="question-number"></h2>
+        </div>
+
+        <h3 id="question"></h3>
+
+        <div id="answers"></div>
+
+        <button id="next-btn">
+            Next Question
+        </button>
+
+    </div>
+
+    <div id="result-screen" class="hide">
+
+        <h1>Quiz Completed!</h1>
+
+        <h2 id="final-score"></h2>
+
+        <h3 id="percentage"></h3>
+
+        <p id="message"></p>
+
+        <p id="stats"></p>
+
+        <button id="restart-btn">
+            Restart Quiz
+        </button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
